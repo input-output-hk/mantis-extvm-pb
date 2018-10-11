@@ -50,7 +50,7 @@ message EthereumConfig {
 }
 
 message IeleConfig {
-  // empty
+  bytes danseBlockNumber = 1;
 }
 
 message GetAccount {
